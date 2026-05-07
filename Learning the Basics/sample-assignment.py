@@ -1,5 +1,5 @@
 import re
-
+#first make an empty list
 num_list = []
 
 with open("regex_sum_42.txt", "r") as file:
@@ -19,3 +19,8 @@ for num in num_list:
   
   num_sum += new_num
 print(num_sum)
+
+#list comprehension solution in one line
+print(sum([int(i) for i in re.findall("[0-9]+", open("regex_sum_42.txt").read())]))
+
+print(sum([int(i) for i in re.findall('[0-9]+', open("regex_sum_2412068.txt").read())]))
