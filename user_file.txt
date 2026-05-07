@@ -1,0 +1,4 @@
+
+    Alice   |  alice@email.com  |  User_123   
+   Bob | bob@web.com | Admin_456   
+     Charlie | charlie@site.org | Guest_789  
