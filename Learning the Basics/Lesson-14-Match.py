@@ -1,0 +1,26 @@
+#match, just like switch in other languages
+day = 12
+match day:
+  case 1:
+    print("Monday")
+  case 2: 
+    print("Tuesday")
+  case 3:
+    print("Wednesday")
+  case 4: 
+    print("Thursday")
+  case 5:
+    print("Friday")
+  case _: 
+    print("Invalid")
+
+#You can add if statements in the case evaluation as an extra condition-check:
+month = 5
+day = 4
+match day:
+  case 1 | 2 | 3 | 4 | 5 if month == 4:
+    print("A weekday in April")
+  case 1 | 2 | 3 | 4 | 5 if month == 5:
+    print("A weekday in May")
+  case _:
+    print("No match")

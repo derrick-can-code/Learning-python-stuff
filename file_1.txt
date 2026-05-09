@@ -1,0 +1,1 @@
+ "w" mode opens the file for writing (overwrites existing content if the file already exists).write() method adds new text to the file.When using with, the file closes automatically at the end of the block.
